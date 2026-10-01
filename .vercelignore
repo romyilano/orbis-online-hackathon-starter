@@ -1,0 +1,10 @@
+# The Vercel CLI does not read .gitignore; these rules control what gets uploaded.
+.env*
+!.env.example
+.reactor-dev-sessions.json*
+.planning/
+.idea/
+.claude/
+*.tsbuildinfo
+npm-debug.log*
+landing/

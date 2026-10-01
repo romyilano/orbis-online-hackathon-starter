@@ -5,3 +5,11 @@ npm-debug.log*
 *.tsbuildinfo
 .reactor-dev-sessions.json
 .reactor-dev-sessions.json.*.tmp
+.vercel
+.claude/
+
+# local run recordings
+/recordings/
+
+# JetBrains
+.idea/
