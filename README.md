@@ -4,7 +4,13 @@ Entry for the Orbis Online Challenge (September 2026). Built on the Orbis hackat
 
 ## Problem
 
-As a human I am not always using 
+As a human I am not always using Orbis properly for the best results. Sometimes it's hit or miss.
+
+In this example, I got a very good result but I'm still getting used to doing the steering properly.
+I also want to use LLMs to train me to handle steering better or even modify my steering for me.
+
+I want to continue to use Orbis long term effectively.
+
 
 **The question: how do we train the humans to use Orbis properly?**
 Orbis can be steered with `set_prompt` while it streams, but steering live is a skill. A steer that is slightly wrong
