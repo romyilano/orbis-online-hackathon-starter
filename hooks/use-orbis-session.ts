@@ -378,6 +378,8 @@ export function useOrbisSession(
     setResolution,
     startRun,
     startFromNanoOutput,
+    startWithPrompt: (startImage: File | null, runPrompt: string) =>
+      runAction(() => startGeneration(startImage, runPrompt)),
     setNanoBusy,
     steer,
     pause: () => runAction(() => sendCommand("pause", {})),

@@ -1,16 +1,19 @@
-import { OrbisDemo } from "@/components/orbis-demo";
+import Link from "next/link";
 
-export default function Home() {
+import { ConsistencySpike } from "@/components/spike/consistency-spike";
+
+export default function Page() {
   return (
-    <main>
+    <main className="training">
       <header>
-        <h1>Orbis starter</h1>
-        <p>
-          Connect, generate a continuous live video, then steer it by changing
-          the prompt while it runs.
-        </p>
+        <h1>Orbis Training</h1>
+        <p>Hone steering prompts: pick a method, steer the live stream, and get each result judged.</p>
+        <nav className="about-nav">
+          <Link href="/about">About</Link>
+        </nav>
+        <div id="header-controls" />
       </header>
-      <OrbisDemo />
+      <ConsistencySpike />
     </main>
   );
 }
