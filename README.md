@@ -9,7 +9,7 @@ As a human I am not always using Orbis properly for the best results. Sometimes 
 In this example, I got a very good result but I'm still getting used to doing the steering properly.
 I also want to use LLMs to train me to handle steering better or even modify my steering for me.
 
-I want to continue to use Orbis long term effectively.
+I intend to be a long-term Orbis user, so this is a simple devtool to make me better at it.
 
 ![Orbis Training: live video, QA feed, steering prompts and the Ask Claude panel](documentation/screenshot.png)
 
