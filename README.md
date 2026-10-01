@@ -2,6 +2,10 @@
 
 Entry for the Orbis Online Challenge (September 2026). Built on the Orbis hackathon starter.
 
+## Problem
+
+As a human I am not always using 
+
 **The question: how do we train the humans to use Orbis properly?**
 Orbis can be steered with `set_prompt` while it streams, but steering live is a skill. A steer that is slightly wrong
 rebuilds the scene or duplicates a character, and you only find out after the stream has changed. Most people learn this
