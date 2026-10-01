@@ -11,6 +11,7 @@ I also want to use LLMs to train me to handle steering better or even modify my 
 
 I want to continue to use Orbis long term effectively.
 
+![Orbis Training: live video, QA feed, steering prompts and the Ask Claude panel](documentation/screenshot.png)
 
 **The question: how do we train the humans to use Orbis properly?**
 Orbis can be steered with `set_prompt` while it streams, but steering live is a skill. A steer that is slightly wrong
