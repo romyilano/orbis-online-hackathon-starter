@@ -2,10 +2,13 @@
 
 Entry for the Orbis Online Challenge (September 2026). Built on the Orbis hackathon starter (kept below).
 
+**The idea: a personal training tool for getting better at video prompting, with QA built in.**
 Orbis can be steered with `set_prompt` while it streams, but a steer that is slightly wrong rebuilds the scene or
-duplicates a character, and you only find out after the stream has changed. **Orbis Training** is a dev tool for
-finding out which steering prompts work. It runs a live Orbis stream, sends steers to it, and judges every result
-as it appears.
+duplicates a character, and you only find out after the stream has changed. Orbis Training is a practice loop:
+write a steer, send it to the live stream, and see right away whether it worked. Every steer is QA'd by Claude
+(pass or fail, per-character consistency, scene rebuilds) and by you (override the verdict, add notes), and each run
+ends with findings on what worked, what to avoid and what to try next. Real-time responsiveness is the point:
+the feedback arrives while the stream is still running, so you learn the prompt-to-result relationship fast.
 
 Orbis Training is the main page (`/`). The original starter demo is still at `/orbis-sample`.
 
