@@ -1,14 +1,18 @@
-# Orbis Training: a workbench for tuning live steering prompts
+# Orbis Training: how do we train the humans to use Orbis properly?
 
 Entry for the Orbis Online Challenge (September 2026). Built on the Orbis hackathon starter.
 
-**The idea: a personal training tool for getting better at video prompting, with QA built in.**
-Orbis can be steered with `set_prompt` while it streams, but a steer that is slightly wrong rebuilds the scene or
-duplicates a character, and you only find out after the stream has changed. Orbis Training is a practice loop:
-write a steer, send it to the live stream, and see right away whether it worked. Every steer is QA'd by Claude
-(pass or fail, per-character consistency, scene rebuilds) and by you (override the verdict, add notes), and each run
-ends with findings on what worked, what to avoid and what to try next. Real-time responsiveness is the point:
-the feedback arrives while the stream is still running, so you learn the prompt-to-result relationship fast.
+**The question: how do we train the humans to use Orbis properly?**
+Orbis can be steered with `set_prompt` while it streams, but steering live is a skill. A steer that is slightly wrong
+rebuilds the scene or duplicates a character, and you only find out after the stream has changed. Most people learn this
+by trial and error, with no feedback on why a prompt failed.
+
+**The answer: a practice loop with QA built in.** Orbis Training is a personal trainer for video prompting. Write a
+steer, send it to the live stream, and see right away whether it worked. Every steer is QA'd by Claude (pass or fail,
+per-character consistency, scene rebuilds) and by you (override the verdict, add notes), and each run ends with
+findings on what worked, what to avoid and what to try next. Real-time responsiveness is the point: the feedback
+arrives while the stream is still running, so people learn the prompt-to-result relationship fast, and the
+tool's own linter and the official prompt guide's rules are taught at the moment of the mistake.
 
 Orbis Training is the main page (`/`). The original starter demo is still at `/orbis-sample`.
 
